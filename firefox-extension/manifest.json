@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "easy-cuba-shop",
+    "version": "0.0.1",
+    "description": "Lista productos en las diferentes tiendas en USD para Cuba",
+    "homepage_url": "https://github.com/manuelaguadomtz/easy-cuba-shop",
+  
+    "icons": {
+        "48": "icons/shop-icon-48.png",
+        "96": "icons/shop-icon-96.png"
+    },
+
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "easycubashop@gmail.com"
+        }
+    },
+
+    "browser_action": {
+        "default_icon": "icons/shop-icon-32.png",
+        "default_title": "Buscar",
+        "default_popup": "popup/index.html"
+    }
+}
