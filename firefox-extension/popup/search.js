@@ -14,6 +14,8 @@ $(function() {
         // Supermarket23
         let products = []
         products.push(... await supermarket23_search(searchText));
+        //products.push(... await casalinda_search(searchText));
+        products.sort((a, b) => a.price - b.price);
         return products
     }
 
